@@ -17,7 +17,7 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 ## 🧭 Network Topology Overview
    
 
-
+https://imgur.com/a/CSj1xWp
 
 ---
 
