@@ -9,9 +9,9 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 - **ISP** → Routed to internal network via a **firewall-enabled router**
 - **Switches** handle VLAN segmentation
 - **Two physical servers** for virtualization and domain services
-- **NAS storage** for backups, media, and VM hosting
+- **NAS storage** for backups, media, and VM hosting (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
 - **Proxmox VE** for VM/container management
-
+(
 ---
 
 ## 🧭 Network Topology Overview
@@ -65,6 +65,9 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 - **Platform**: Proxmox VE
 - **VMs**:
   - Ubuntu Server for web services
+  - windows 11
+  <br>i followed this workflow to
+  (https://guides.hakedev.com/wiki/proxmox/windows-11-vm/)
   - CentOS server for DNS/NTP
   - Kali Linux for security testing
 - **Containers**:
