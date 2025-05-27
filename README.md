@@ -1,10 +1,10 @@
-# 🌐 Network Home Lab Project
+#  Network Home Lab Project
 
 This repository documents the design, setup, and configuration of a **Home Network Lab** built to simulate a small enterprise IT infrastructure using virtualization, VLAN segmentation, and real-world services.
 
 ---
 
-## 🧱 Lab Overview
+## Lab Overview
 
 - **ISP** → Routed to internal network via a **firewall-enabled router**
 - **Switches** handle VLAN segmentation
@@ -14,16 +14,16 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 (
 ---
 
-## 🧭 Network Topology Overview
+##  Network Topology Overview
    
 
 https://imgur.com/a/CSj1xWp
 
 ---
 
-## 🔧 VLAN Configuration
+##  VLAN Configuration
 
-### VLAN 10 – 🧪 **Man Lab**
+### VLAN 10 –  **Main Lab**
 - For sysadmin tools, monitoring systems, and testing VMs
 - Only trusted devices allowed
 - Access to all VLANs permitted via router rules
@@ -46,7 +46,7 @@ https://imgur.com/a/CSj1xWp
 
 ---
 
-## 🖥️ Physical Infrastructure
+##  Physical Infrastructure
 
 ### 🔐 Router + Firewall
 - Custom firmware (pfSense or OPNSense recommended)
@@ -60,7 +60,7 @@ https://imgur.com/a/CSj1xWp
 
 ---
 
-## 🧰 Server 1: Virtualization Node (Proxmox)
+##  Server 1: Virtualization Node (Proxmox)
 
 - **Platform**: Proxmox VE
 - **VMs**:
@@ -88,6 +88,4 @@ https://imgur.com/a/CSj1xWp
 - **Gaming/Media**: Steam server, Plex, etc.
 
 ---
-
-## 📦 Repository Structure
 
