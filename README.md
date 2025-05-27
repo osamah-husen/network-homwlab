@@ -10,7 +10,7 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 - **firewall-end router (Cisco ASA 5515-X)**  → 
 - **Switches (Cisco WS-C2948G)**  → For handling VLAN segmentation 
 - **physical servers (R710 & R730)** → for virtualization and domain services
-- **NAS storage** → for backups, media, and VM hosting (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
+- **NAS storage** → for backups, media, and VM hosting 
 - **Proxmox VE on (server Dell power edge R710)** → for VM/container management.
 ---
 
@@ -27,18 +27,18 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 - Only trusted devices allowed
 - Access to all VLANs permitted via router rules
 
-### VLAN 20 – 👨‍👩‍👧 **Home Users**
+### VLAN 20 –  **Home Users**
 - Daily devices: phones, PCs, tablets
 - Moderate access rights
 - Internet access allowed
 - No access to lab VLAN
 
-### VLAN 30 – 🎫 **Guest Network**
+### VLAN 30 –  **Guest Network**
 - For guests and visitors
 - Strict internet-only access
 - Isolated from other VLANs
 
-### VLAN 40 – 📷 **IoT & Surveillance**
+### VLAN 40 –  **IoT & Surveillance**
 - Smart devices: lights, thermostats, sensors, IP cameras
 - Heavily restricted internet access
 - No local network access except for NVR/NAS
@@ -85,6 +85,8 @@ This repository documents the design, setup, and configuration of a **Home Netwo
   - 5 domain user accounts configured
   - Shared folders and roaming profiles
 - **Gaming/Media**: Steam server, Plex, etc.
+
+- (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
 
 ---
 
