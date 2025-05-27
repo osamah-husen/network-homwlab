@@ -4,20 +4,19 @@ This repository documents the design, setup, and configuration of a **Home Netwo
 
 ---
 
-## Lab Overview
+## Lab Overview & Physical equipment
 
-- **ISP** → Routed to internal network via a **firewall-enabled router**
-- **Switches** handle VLAN segmentation
-- **Two physical servers** for virtualization and domain services
-- **NAS storage** for backups, media, and VM hosting (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
-- **Proxmox VE** for VM/container management
-(
+- **ISP Routed** → for internal acsses
+- **firewall-end router (Cisco ASA 5515-X)**  → 
+- **Switches (Cisco WS-C2948G)**  → For handling VLAN segmentation 
+- **physical servers (R710 & R730)** → for virtualization and domain services
+- **NAS storage** → for backups, media, and VM hosting (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
+- **Proxmox VE on (server Dell power edge R710)** → for VM/container management.
 ---
 
 ##  Network Topology Overview
    
-
-https://imgur.com/a/CSj1xWp
+<img src="https://i.postimg.cc/LsKZMxrz/Lucas-Home-Lab-Feature-768x576.webp" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 ---
 
