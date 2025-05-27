@@ -86,7 +86,7 @@ This repository documents the design, setup, and configuration of a **Home Netwo
   - Shared folders and roaming profiles
 - **Gaming/Media**: Steam server, Plex, etc.
 
-- (https://pve.proxmox.com/wiki/Passthrough_Physical_Disk_to_Virtual_Machine_(VM))
+- 
 
 ---
 
